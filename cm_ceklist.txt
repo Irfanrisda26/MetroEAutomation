@@ -1,0 +1,12 @@
+show port | match "Up    Yes  Up" | count 
+show router interface | match "Interfaces :"
+show router ospf neighbor | match No 
+show router ldp session | match "Sessions:"
+show router mpls lsp | match "LSPs :"
+show router mpls lsp terminate | match "LSPs :"
+show service service-using | match Mat
+show service sdp | match Num 
+show service sdp-using | match Num 
+show service sap-using | match Num 
+show card detail | match Time 
+show mda detail | match Time
