@@ -3,7 +3,7 @@ Script for Metro-E Router Automation Based on Python
 ## Beware the command on this script only work on Nokia/Alcatel-lucent Metro-E Router
 To use this script on another router you need to change everything on the script and I can't help you with that.
 
-I create this script for the sake to simplify my work as a Network Engineer
+I create this script for the sake to simplify my work as a Network Engineer.
 Every day I work with a live router at a national level of my country which I believe as a high-risk job.
 To Reduce as many as possible of human errors on this job, I tried to create this script to do the job.
 
