@@ -33,7 +33,7 @@ What this script do are :
 3. Ping IP interface 
    You don't need to manually input the IP interface as this script will scan it and create the ping command itself.
    in this case, this script will calculate the IP interface of the far-end with /30 prefix.
-   ex: IP intf on Roouter a
+   * ex: IP intf on Roouter a
         192.168.0.1/30
         IP intf on Router b
         192.168.0.2/30
