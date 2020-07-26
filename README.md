@@ -13,15 +13,15 @@ While it can reduce errors it also helps me out as I don't need to manually inpu
 
 Collecting data before doing something on a live router sometimes takes too much time as we need to manually input some parameter, such as:
 
--Port on the router
+* Port on the router
 Every router has a different number of ports, because of this we need to create a new command for every router we work on. This could be easy if we only work on 1 Router, but if we work on the entire ring of a network, it will take too much time.
 
--IP Address of far-end router interface
+* IP Address of far-end router interface
 The router will have different IP Addresses on its router interface. Usually, a live router will have more than 3 router interface and for that reason, we need to manually create ping command on every router. This task also takes time if consider work with many routers at one time.
 
--Multiple routers.
+* Multiple routers.
 If we work on the entire ring of the network, usually we will collect every state of a router on that ring before doing something. We need constantly log in and logout for every router and then run our command.
--etc
+* etc
 
 This script can help you out for collecting data on a router, in this case, I am using this script on Metro-E Router (Nokia/Alcatel-lucent).
 What this script do are :
