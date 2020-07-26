@@ -26,18 +26,18 @@ If we work on the entire ring of the network, usually we will collect every stat
 This script can help you out for collecting data on a router, in this case, I am using this script on Metro-E Router (Nokia/Alcatel-lucent).
 What this script do are :
 
-0. Automatic login with 'telnet' 
+1. Automatic login with 'telnet' 
    You need to input username and password for the first time when you ran this script command telnet can be changed if you use another login method such as SSH.
-1. Collecting traffic of Port in the specific router automatically
+2. Collecting traffic of Port in the specific router automatically
    You don't need to input what port to monitor because this script will scan all ports that available on the router and monitor it for 3 secs interval.
-2. Ping IP interface 
+3. Ping IP interface 
    You don't need to manually input the IP interface as this script will scan it and create the ping command itself.
    in this case, this script will calculate the IP interface of the far-end with /30 prefix.
    ex: IP intf on Roouter a
         192.168.0.1/30
         IP intf on Router b
         192.168.0.2/30
-3. Every 'show' mandatory command such as :
+4. Every 'show' mandatory command such as :
     - List service
     - List SAP and SDP
     - Router interface
