@@ -53,6 +53,7 @@ How to Use :
    and for router idle string will be the same if you use Nokia/Alcatel-lucent metro-e Router. You can change this on the script line 26.
 3. For Aditional command, you can add it on cm_ceklist.txt
 4. I use SecureCRT as a telnet client, so to run a script you just need to click script on the menu bar.
+   Then select pre-act.py
 5. The output will be hostname/ip_FULL.txt and hostname/ip_ceklist.txt
 
 ## SCRIPT USAGE
