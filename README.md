@@ -51,7 +51,7 @@ What this script do are :
 How to Use :
 1. Put hostname or ip on router.txt (no limitation put as many as you want)
 1. Connect to a session.
-2. also you need to change your idle string on the script if your session has different than mine looks like this ![string image](https://github.com/ridhoalif/MetroEAutomation/blob/master/string.PNG)
+2. also you need to change your idle string on the script if your session has different string. mine looks like this ![string image](https://github.com/ridhoalif/MetroEAutomation/blob/master/string.PNG)
    and for router idle string will be the same if you use Nokia/Alcatel-lucent metro-e Router. You can change this on the script line 26.
 3. For Aditional command, you can add it on cm_ceklist.txt
 4. I use SecureCRT as a telnet client, so to run a script you just need to click script on the menu bar.
