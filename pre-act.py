@@ -41,10 +41,12 @@ def send_com(x):
 	crt.Screen.WaitForString(pagar)
 	return
 def start():
-
+	numi = 0
 	crt.Dialog.MessageBox("SCRIPT BEFORE AFTER WITH MONITOR PORT & PING INTF"+"\n"+"Created By Ridho")
 	username= crt.Dialog.Prompt("Input Username :")
 	passwords= crt.Dialog.Prompt("Input Passwords :")
+	for iz in router:
+		numi +=1
 	for idx,i in enumerate(router):
 		objTab.Screen.Clear()
 		#Create File Name
@@ -61,9 +63,11 @@ def start():
 		z9 = za.rstrip()+"_interface_Fix.log"
 		objTab.Screen.Send("\r")
 		objTab.Screen.WaitForString(idleses)
-		crt.Dialog.MessageBox(i)
 		if idx == 0:
-			objTab.Screen.Send("telnet "+ i)
+			if (numi-1) == 0:
+				objTab.Screen.Send("telnet "+ i+"\n")
+			else:
+				objTab.Screen.Send("telnet "+ i)
 		else:
 			objTab.Screen.Send("telnet "+ i+"\n")
 		objTab.Screen.WaitForString("ogin:")
